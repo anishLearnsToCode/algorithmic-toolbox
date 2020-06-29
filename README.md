@@ -23,7 +23,7 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 - [Max Pairwise Product (Java)](src/MaxPairwiseProduct.java)
 
 
-## Week 2 
+## Week 2 [📄](src/week2/week2-algorithmic-warmup.pdf)
 ### Programming Assignments
 - []()
 
