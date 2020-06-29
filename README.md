@@ -24,8 +24,20 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 
 
 ## Week 2 [📄](src/week2/week2-algorithmic-warmup.pdf)
+### Quizzes
+- [Logarithms: Practice Quiz]()
+- [Big-O: Practice Quiz]()
+- [Growth Rate: Practice Quiz]()
+
 ### Programming Assignments
-- []()
+- [Fibonacci Number (Java)](src/Fibonacci.java)
+- [Last Digit of Large Fibonacci Number (Java)](src/FibonacciLastDigit.java)
+- [Greatest Common Divisor (Java)](src/GCD.java)
+- [Least Common Multiple (Java)](src/LCM.java)
+- [Fibonacci Number Again (Java)](src/FibonacciHuge.java)
+- [Last Digit of Sum of Fibonacci Numbers](src/FibonacciSumLastDigit.java)
+- [Last Digit of The Sum of Fibonacci Digits Again](src/FibonacciPartialSum.java)
+- [Last Digit of the Sum of Squares of Fibonacci Numbers](src/FibonacciSumSquares.java)
 
 ## Week 3 [📄](src/week3/week3-greedy-algorithms.pdf)
 ### Programming Assignments
