@@ -25,9 +25,9 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 
 ## Week 2 [📄](src/week2/week2-algorithmic-warmup.pdf)
 ### Quizzes
-- [Logarithms: Practice Quiz]()
-- [Big-O: Practice Quiz]()
-- [Growth Rate: Practice Quiz]()
+- [Logarithms: Practice Quiz](src/week2/logarithms-quiz.md)
+- [Big-O: Practice Quiz](src/week2/big-o-quiz.md)
+- [Growth Rate: Practice Quiz](src/week2/growth-rate-quiz.md)
 
 ### Programming Assignments
 - [Fibonacci Number (Java)](src/Fibonacci.java)
