@@ -18,10 +18,11 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 
 ## Week 1
 ### Quizzes
-
+- [Solving Programming Challenges](src/week1/solving-programming-challenges.md)
 
 ### Programming Assignments 
-- [Sum of 2 Numbers (Java)](src/week1/APlusB.java)
+- [Sum of 2 Numbers (Java)](src/APlusB.java)
+- [Max Pairwise Product (Java)](src/MaxPairwiseProduct.java)
 
 ### Programming Assignments (Optional)
 

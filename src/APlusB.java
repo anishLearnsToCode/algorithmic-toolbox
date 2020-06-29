@@ -1,5 +1,3 @@
-package week1;
-
 import java.util.Scanner;
 
 class APlusB {
