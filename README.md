@@ -27,14 +27,14 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 ### Programming Assignments
 - []()
 
-## Week 3
+## Week 3 [📄](src/week3/week3-greedy-algorithms.pdf)
 ### Programming Assignments
 
-## Week 4
+## Week 4 [📄](src/week4/week4-divide-and-conquer.pdf)
 ### Programming Assignments
 
-## Week 5
+## Week 5 [📄](src/week5/week5-dynamic-programming1.pdf)
 ### Programming Assignments
 
-## Week 6
+## Week 6 [📄](src/week6/week6_dynamic_programming2.pdf)
 ### Programming Assignments
