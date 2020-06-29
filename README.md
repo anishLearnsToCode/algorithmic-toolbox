@@ -39,14 +39,25 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 - [Last Digit of The Sum of Fibonacci Digits Again](src/FibonacciPartialSum.java)
 - [Last Digit of the Sum of Squares of Fibonacci Numbers](src/FibonacciSumSquares.java)
 
+
 ## Week 3 [📄](src/week3/week3-greedy-algorithms.pdf)
 ### Programming Assignments
+- [Money Change (Java)](src/Change.java)
+- [Maximum Loot Value/Fractional Knapsack (Java)](src/FractionalKnapsack.java)
+- [Car Fueling (Java)](src/CarFueling.java)
+- [Maximum Advertisment Revenue (Maximum Dot Product) (Java)](src/DotProduct.java)
+- [Collecting Signatures (Covering Segments by Points) (Java)](src/CoveringSegments.java)
+- [Maximum Number of Prizes (Different Summands) (Java)](src/DifferentSummands.java)
+- [Maximum Salary (Largest Number) (Java)](src/LargestNumber.java)
+
 
 ## Week 4 [📄](src/week4/week4-divide-and-conquer.pdf)
 ### Programming Assignments
 
+
 ## Week 5 [📄](src/week5/week5-dynamic-programming1.pdf)
 ### Programming Assignments
+
 
 ## Week 6 [📄](src/week6/week6_dynamic_programming2.pdf)
 ### Programming Assignments
