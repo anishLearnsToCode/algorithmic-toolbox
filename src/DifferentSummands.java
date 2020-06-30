@@ -1,20 +1,23 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class DifferentSummands {
-    private static List<Integer> optimalSummands(int n) {
-        List<Integer> summands = new ArrayList<Integer>();
-        //write your code here
-        return summands;
+    private static long maxChildrenPossible(long candies) {
+        return (long) ((Math.sqrt(8 * candies + 1) - 1) / 2);
     }
-    
+
+    private static long summation(long n) {
+        return (n * (n + 1)) / 2;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        List<Integer> summands = optimalSummands(n);
-        System.out.println(summands.size());
-        for (Integer summand : summands) {
-            System.out.print(summand + " ");
+        long candies = scanner.nextLong();
+        long children = maxChildrenPossible(candies);
+        System.out.println(children);
+        for (long i = 1 ; i < children ; i++) {
+            System.out.print(i + " ");
         }
+        System.out.print(candies - summation(children - 1));
     }
 }
 
