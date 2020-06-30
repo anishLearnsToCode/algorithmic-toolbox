@@ -7,7 +7,7 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 | Week | Links | 
 |:----:|:-----:|
 | [Week 1](#week-1) | [[Quizzes]](#quizzes) ⭐ [[Programming Assignments]](#programming-assignments) |
-| [Week 2](#week-2) | [[Programming Assignments]](#programming-assignments-1) |
+| [Week 2](#week-2) | [[Quizzes]](#quizzes-1) ⭐ [[Programming Assignments]](#programming-assignments-1) |
 | [Week 3](#week-3) | [[Programming Assignments]](#programming-assignments-2) |
 | [Week 4](#week-4) | [[Programming Assignments]](#programming-assignments-3) |
 | [Week 5](#week-5) | [[Programming Assignments]](#programming-assignments-4) |
@@ -45,7 +45,7 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 - [Money Change (Java)](src/Change.java)
 - [Maximum Loot Value/Fractional Knapsack (Java)](src/FractionalKnapsack.java)
 - [Car Fueling (Java)](src/CarFueling.java)
-- [Maximum Advertisment Revenue (Maximum Dot Product) (Java)](src/DotProduct.java)
+- [Maximum Advertisement Revenue (Maximum Dot Product) (Java)](src/DotProduct.java)
 - [Collecting Signatures (Covering Segments by Points) (Java)](src/CoveringSegments.java)
 - [Maximum Number of Prizes (Different Summands) (Java)](src/DifferentSummands.java)
 - [Maximum Salary (Largest Number) (Java)](src/LargestNumber.java)

@@ -1,27 +1,32 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class DotProduct {
-    private static long maxDotProduct(int[] a, int[] b) {
-        //write your code here
-        long result = 0;
-        for (int i = 0; i < a.length; i++) {
-            result += a[i] * b[i];
+    private static final Scanner SCANNER = new Scanner(System.in);
+
+    private static long maxDotProduct(long[] a, long[] b) {
+        Arrays.sort(a);
+        Arrays.sort(b);
+        long product = 0;
+        for (int index = 0 ; index < a.length ; index++) {
+            product += a[index] * b[index];
         }
-        return result;
+        return product;
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = scanner.nextInt();
-        }
-        int[] b = new int[n];
-        for (int i = 0; i < n; i++) {
-            b[i] = scanner.nextInt();
-        }
+        int length = SCANNER.nextInt();
+        long[] a = getArray(length);
+        long[] b = getArray(length);
         System.out.println(maxDotProduct(a, b));
+    }
+
+    private static long[] getArray(int length) {
+        long[] array = new long[length];
+        for (int index = 0 ; index < array.length ; index++) {
+            array[index] = SCANNER.nextLong();
+        }
+        return array;
     }
 }
 
