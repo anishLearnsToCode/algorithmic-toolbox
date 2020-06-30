@@ -46,6 +46,7 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 - [Maximum Loot Value/Fractional Knapsack (Java)](src/FractionalKnapsack.java)
 - [Car Fueling (Java)](src/CarFueling.java)
 - [Maximum Advertisement Revenue (Maximum Dot Product) (Java)](src/DotProduct.java)
+- [Maximum Advertisement Revenue (Maximum Dot Product) (Python)](python/week-3/max-dot-product.py)
 - [Collecting Signatures (Covering Segments by Points) (Java)](src/CoveringSegments.java)
 - [Maximum Number of Prizes (Different Summands) (Java)](src/DifferentSummands.java)
 - [Maximum Salary (Largest Number) (Java)](src/LargestNumber.java)
