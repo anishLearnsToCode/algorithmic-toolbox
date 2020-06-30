@@ -54,6 +54,12 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 
 ## Week 4 [📄](src/week4/week4-divide-and-conquer.pdf)
 ### Programming Assignments
+- [Binary Search (Java)](src/BinarySearch.java)
+- [Majority Element (Jva)](src/MajorityElement.java)
+- [Improving QuickSort (Java)](src/Sorting.java)
+- [Inversions (Java)](src/Inversions.java)
+- [Organizing a Lottery (Java)](src/PointsAndSegments.java)
+- [Closest Points (Java)](src/Closest.java)
 
 
 ## Week 5 [📄](src/week5/week5-dynamic-programming1.pdf)
