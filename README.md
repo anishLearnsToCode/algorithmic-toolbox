@@ -1,6 +1,12 @@
 # Algorithmic Toolbox - Coursera
 __By University of California, San Diego, National Research University Higher School of Economics__
 
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/anishLearnsToCode/algorithmic-toolbox)
+![made-with-Java](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)
+![made-with-python](https://img.shields.io/badge/Made%20with-python-1f425f.svg)
+[![license](https://img.shields.io/badge/LICENSE-MIT-<COLOR>.svg)](LICENSE)
+[![course-list](https://img.shields.io/badge/course-list-1f72ff.svg)](https://github.com/anishLearnsToCode/course-list)
+
 This course is part of a larger _Data Structures and Algorithms_ specialization.
 
 ## Index
@@ -76,3 +82,6 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 - Maximum Amount of Gold
 - [Partitioning Souvenirs](python/week-6/partition_souvegnirs.py)
 - [Maximum Value of an Arithmetic Expression](python/week-6/max_value_arithmetic_expression.py)
+
+## [Certificate](http://coursera.org/verify/UWWDZKHQA86D)
+![Certificate](certificate.PNG)
