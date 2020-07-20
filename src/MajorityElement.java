@@ -1,31 +1,45 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
 
 public class MajorityElement {
-    private static int getMajorityElement(int[] a, int left, int right) {
-        if (left == right) {
-            return -1;
+    private static final FastScanner scanner = new FastScanner(System.in);
+
+    private static boolean hasMajorityElement(int[] array) {
+        Map<Integer, Integer> frequencies = getFrequency(array);
+        for (int frequency : frequencies.values()) {
+            if (frequency > array.length / 2) {
+                return true;
+            }
         }
-        if (left + 1 == right) {
-            return a[left];
+        return false;
+    }
+
+    private static Map<Integer, Integer> getFrequency(int[] array) {
+        Map<Integer, Integer> frequencies = new HashMap<>();
+        for (int element : array) {
+            frequencies.put(element, frequencies.getOrDefault(element, 0) + 1);
         }
-        //write your code here
-        return -1;
+        return frequencies;
     }
 
     public static void main(String[] args) {
-        FastScanner scanner = new FastScanner(System.in);
-        int n = scanner.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = scanner.nextInt();
-        }
-        if (getMajorityElement(a, 0, a.length) != -1) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
+        int[] array = getArray(scanner.nextInt());
+        System.out.println(hasMajorityElement(array) ? 1 : 0);
     }
+
+    private static int[] getArray(int length) {
+        int[] array = new int[length];
+        for (int i = 0 ; i < length ; i++) {
+            array[i] = scanner.nextInt();
+        }
+        return array;
+    }
+
     static class FastScanner {
         BufferedReader br;
         StringTokenizer st;

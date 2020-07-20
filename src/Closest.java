@@ -1,27 +1,14 @@
-import java.io.*;
-import java.util.*;
-
-import static java.lang.Math.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.Objects;
+import java.util.StringTokenizer;
 
 public class Closest {
 
-    static class Point implements Comparable<Point> {
-        long x, y;
-
-        public Point(long x, long y) {
-            this.x = x;
-            this.y = y;
-        }
-
-        @Override
-        public int compareTo(Point o) {
-            return o.y == y ? Long.signum(x - o.x) : Long.signum(y - o.y);
-        }
-    }
-
     static double minimalDistance(int[] x, int y[]) {
         double ans = Double.POSITIVE_INFINITY;
-        //write your code here
+        // write your code here
         return ans;
     }
 
@@ -43,7 +30,6 @@ public class Closest {
     static PrintWriter writer;
     static StringTokenizer tok = new StringTokenizer("");
 
-
     static String next() {
         while (!tok.hasMoreTokens()) {
             String w = null;
@@ -60,6 +46,6 @@ public class Closest {
     }
 
     static int nextInt() {
-        return Integer.parseInt(next());
+        return Integer.parseInt(Objects.requireNonNull(next()));
     }
 }

@@ -50,6 +50,7 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 - [Collecting Signatures (Covering Segments by Points) (Java)](src/CoveringSegments.java)
 - [Maximum Number of Prizes (Different Summands) (Java)](src/DifferentSummands.java)
 - [Maximum Salary (Largest Number) (Java)](src/LargestNumber.java)
+- [Maximum Salary (Largest Number) (Python)](python/week-3/largest-number.py)
 
 
 ## Week 4 [📄](src/week4/week4-divide-and-conquer.pdf)
@@ -58,8 +59,8 @@ This course is part of a larger _Data Structures and Algorithms_ specialization.
 - [Majority Element (Jva)](src/MajorityElement.java)
 - [Improving QuickSort (Java)](src/Sorting.java)
 - [Inversions (Java)](src/Inversions.java)
-- [Organizing a Lottery (Java)](src/PointsAndSegments.java)
-- [Closest Points (Java)](src/Closest.java)
+- [Organizing a Lottery (Python)](python/week-4/points_and_segments.py)
+- [Closest Points (Python)](python/week-4/closest_points.py)
 
 
 ## Week 5 [📄](src/week5/week5-dynamic-programming1.pdf)

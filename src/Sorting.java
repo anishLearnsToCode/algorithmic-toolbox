@@ -1,61 +1,31 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Sorting {
-    private static Random random = new Random();
-
-    private static int[] partition3(int[] a, int l, int r) {
-      //write your code here
-
-
-      int m1 = l;
-      int m2 = r;
-      int[] m = {m1, m2};
-      return m;
-    }
-
-    private static int partition2(int[] a, int l, int r) {
-        int x = a[l];
-        int j = l;
-        for (int i = l + 1; i <= r; i++) {
-            if (a[i] <= x) {
-                j++;
-                int t = a[i];
-                a[i] = a[j];
-                a[j] = t;
-            }
-        }
-        int t = a[l];
-        a[l] = a[j];
-        a[j] = t;
-        return j;
-    }
-
-    private static void randomizedQuickSort(int[] a, int l, int r) {
-        if (l >= r) {
-            return;
-        }
-        int k = random.nextInt(r - l + 1) + l;
-        int t = a[l];
-        a[l] = a[k];
-        a[k] = t;
-        //use partition3
-        int m = partition2(a, l, r);
-        randomizedQuickSort(a, l, m - 1);
-        randomizedQuickSort(a, m + 1, r);
-    }
+    private static final FastScanner scanner = new FastScanner(System.in);
 
     public static void main(String[] args) {
-        FastScanner scanner = new FastScanner(System.in);
-        int n = scanner.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = scanner.nextInt();
+        int[] array = getArray(scanner.nextInt());
+        Arrays.sort(array);
+        print(array);
+    }
+
+    private static void print(int[] array) {
+        for (int element : array) {
+            System.out.print(element + " ");
         }
-        randomizedQuickSort(a, 0, n - 1);
-        for (int i = 0; i < n; i++) {
-            System.out.print(a[i] + " ");
+    }
+
+    private static int[] getArray(int length) {
+        int[] array = new int[length];
+        for (int index = 0 ; index < array.length ; index++) {
+            array[index] = scanner.nextInt();
         }
+        return array;
     }
 
     static class FastScanner {
